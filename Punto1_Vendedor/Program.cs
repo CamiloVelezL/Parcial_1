@@ -19,5 +19,20 @@ public class Program
         decimal Comision = 10 %;
         decimal BeneficioExtra = 100000;
         decimal ObjetivoVentas = 1000000;
+
+        //Declaracion de variable Ventas
+        decimal VentaNo1;
+        Console.Write("Ingrese el valor de la primera venta: ");
+        VentaNo1=Convert.ToInt32(Console.ReadLine());
+
+        decimal VentaNo2;
+        Console.Write("Ingrese el valor de la segunda venta: ");
+        VentaNo2 = Convert.ToInt32(Console.ReadLine());
+
+        decimal VentaNo3;
+        Console.Write("Ingrese el valor de la tercera venta: ");
+        VentaNo3 = Convert.ToInt32(Console.ReadLine());
+
+
     }
 }
