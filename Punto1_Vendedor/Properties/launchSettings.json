@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Punto1_Vendedor": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
