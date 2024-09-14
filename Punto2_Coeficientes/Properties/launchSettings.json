@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Punto2_Coeficientes": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
