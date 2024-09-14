@@ -33,6 +33,26 @@ public class Program
         Console.Write("Ingrese el valor de la tercera venta: ");
         VentaNo3 = Convert.ToInt32(Console.ReadLine());
 
+        //comision de ventas
+        decimal Comision1= VentaNo1 * Comision;
+        decimal Comision2= VentaNo2 * Comision;
+        decimal Comision3= VentaNo3 * Comision;
 
+        //Total de comision
+        decimal TotalComision = Comision1 + Comision2 + Comision3;
+
+        //Total a recir de suldo y comisiones
+        decimal TotalaRecibir = SueldoBase + TotalComision;
+
+        //Venta de mayor comision
+        decimal VentaMayor = Math.Max(Comision1,Math.Max(Comision2,Comision3));
+
+        //promedio de comisiones
+
+        decimal PromedioComsiones = TotalComision / 3;
+
+        //Analisis de Cumplimiento
+        decimal TotalVentas =VentaNo1 + VentaNo2 + VentaNo3;
+        Boolean ObjetivoAlcanzado = TotalVentas >= ObjetivoVentas;
     }
 }
