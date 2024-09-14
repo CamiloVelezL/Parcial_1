@@ -5,7 +5,7 @@ using System;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
 
     {   
         //Ingresar valores para a y b
@@ -21,7 +21,12 @@ internal class Program
                 Console.WriteLine("Todos los numeros son la solucion a la ecuacion.");
             else Console.WriteLine("La ecuacion no tiene solucion posible");
         }
-        
+        else
+        {
+            double x = - b / a;
+            Console.WriteLine($"La Solucion a la variable x es: {x}");
+
+        }
 
     }
 }
