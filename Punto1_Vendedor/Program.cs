@@ -18,8 +18,8 @@ public class Program
     private static void Main(string[] args)
     {
         //Delcaración Datos fijos 
-        decimal SueldoBase = 900000;
-        decimal Comision = 10 %;
+        decimal SueldoBase = 1200000;
+        decimal Comision = 0.10m;
         decimal BeneficioExtra = 100000;
         decimal ObjetivoVentas = 1000000;
 
