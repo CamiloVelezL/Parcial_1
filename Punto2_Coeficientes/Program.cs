@@ -15,5 +15,13 @@ internal class Program
         Console.Write("ingrese el coeficiente para b: ");
         double b = Convert.ToDouble(Console.ReadLine());
 
+        if (a == 0)
+        {
+            if (b == 0)
+                Console.WriteLine("Todos los numeros son la solucion a la ecuacion.");
+            else Console.WriteLine("La ecuacion no tiene solucion posible");
+        }
+        
+
     }
 }
